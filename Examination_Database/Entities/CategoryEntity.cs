@@ -10,7 +10,6 @@ internal class CategoryEntity
     [Column(TypeName = "nvarchar(50)")]
     public string Name { get; set; } = null!;
 
-    public int SubCategoryId { get; set; }
-    public SubCategoryEntity? SubCategory { get; set; }
+    public ICollection<SubCategoryEntity> SubCategories { get; set; } = new HashSet<SubCategoryEntity>();
 
 }

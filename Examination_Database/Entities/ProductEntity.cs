@@ -26,10 +26,10 @@ internal class ProductEntity
     public string? Brand { get; set; }
 
     [Column(TypeName = "money")]
-    public decimal Price { get; set; }
+    public decimal StockPrice { get; set; }
 
-    public int CategoryId { get; set; }
-    public CategoryEntity Category { get; set; } = null!;
+    public int SubCategoryId { get; set; }
+    public SubCategoryEntity SubCategory { get; set; } = null!;
     public int StockId { get; set; }
     public StockEntity Stock { get; set; } = null!;
 

@@ -1,8 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Examination_Database.Entities;
 
+[Index(nameof(Email), IsUnique = true)]
 internal class CustomerEntity
 {
     [Key]
@@ -21,11 +23,11 @@ internal class CustomerEntity
     public string Phonenumber { get; set; } = null!;
 
     public int AdressId { get; set; }
-    public AdressEntity Adress { get; set; }
+    public AdressEntity Adress { get; set; } = null!;
 
     public int OrderId { get; set; }
-    public OrdersEntity Order { get; set; }
+    public OrdersEntity Order { get; set; } = null!;
     public int PaymentId { get; set; }
-    public PaymentsEntity Payment { get; set; }
+    public PaymentsEntity Payment { get; set; } = null!;
 
 }
