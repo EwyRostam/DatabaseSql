@@ -14,7 +14,7 @@ internal class AdressEntity
     [Column(TypeName = "varchar(6)")]
     public string? StreetNumber { get; set; }
 
-    public int PostalCode { get; set; }
+    public int PostalCode { get; set; } 
 
     [Column(TypeName = "nvarchar(100)")]
     public string Country { get; set; } = null!;

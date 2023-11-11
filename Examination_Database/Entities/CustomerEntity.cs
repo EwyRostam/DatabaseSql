@@ -25,8 +25,6 @@ internal class CustomerEntity
     public int AdressId { get; set; }
     public AdressEntity Adress { get; set; } = null!;
 
-    public int OrderId { get; set; }
-    public OrdersEntity Order { get; set; } = null!;
     public int PaymentId { get; set; }
     public PaymentsEntity Payment { get; set; } = null!;
 

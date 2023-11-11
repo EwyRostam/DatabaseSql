@@ -9,7 +9,7 @@ internal class DataContext : DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {
-
+        
     }
 
     public DbSet<AdressEntity> Adresses {get; set;}
