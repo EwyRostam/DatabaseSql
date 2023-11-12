@@ -1,0 +1,5 @@
+C:\Users\ewyro\Nackademin\Databas_16\Examination\Examination_Database\obj\Debug\net7.0\Examination_Database.csproj.AssemblyReference.cache
+C:\Users\ewyro\Nackademin\Databas_16\Examination\Examination_Database\obj\Debug\net7.0\Examination_Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewyro\Nackademin\Databas_16\Examination\Examination_Database\obj\Debug\net7.0\Examination_Database.AssemblyInfoInputs.cache
+C:\Users\ewyro\Nackademin\Databas_16\Examination\Examination_Database\obj\Debug\net7.0\Examination_Database.AssemblyInfo.cs
+C:\Users\ewyro\Nackademin\Databas_16\Examination\Examination_Database\obj\Debug\net7.0\Examination_Database.csproj.CoreCompileInputs.cache

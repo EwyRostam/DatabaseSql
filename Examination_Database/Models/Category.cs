@@ -18,7 +18,11 @@ internal class Category
                 CategoryName = entity.Name
             };
 
-        } catch (Exception ex) { Debug.WriteLine(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex.Message);
             return null!;
+        }
     }
 }

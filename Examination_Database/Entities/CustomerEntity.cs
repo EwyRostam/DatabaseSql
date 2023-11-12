@@ -28,4 +28,6 @@ internal class CustomerEntity
     public int PaymentId { get; set; }
     public PaymentsEntity Payment { get; set; } = null!;
 
+    public ICollection<OrdersEntity>? Orders { get; set; }
+
 }

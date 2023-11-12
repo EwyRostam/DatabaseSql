@@ -12,10 +12,11 @@ namespace Examination_Database.Entities
         public int OrderId { get; set; }
         public OrdersEntity Order { get; set; } = null!;
         public int ProductId { get; set; }
+        public ProductEntity Product { get; set; } = null!;
 
         [Column(TypeName ="money")]
-        public int price { get; set; }
+        public int Price { get; set; }
 
-        public int quantity { get; set; }
+        public int Quantity { get; set; }
     }
 }
